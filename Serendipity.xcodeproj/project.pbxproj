@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		687DB7A81CAEA5D3002EDE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7A71CAEA5D3002EDE89 /* AppDelegate.swift */; };
+		687DB7AA1CAEA5D3002EDE89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7A91CAEA5D3002EDE89 /* ViewController.swift */; };
+		687DB7AD1CAEA5D3002EDE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687DB7AB1CAEA5D3002EDE89 /* Main.storyboard */; };
+		687DB7AF1CAEA5D3002EDE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687DB7AE1CAEA5D3002EDE89 /* Assets.xcassets */; };
+		687DB7B21CAEA5D3002EDE89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687DB7B01CAEA5D3002EDE89 /* LaunchScreen.storyboard */; };
+		687DB7BD1CAEA5D3002EDE89 /* SerendipityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7BC1CAEA5D3002EDE89 /* SerendipityTests.swift */; };
+		687DB7C81CAEA5D3002EDE89 /* SerendipityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7C71CAEA5D3002EDE89 /* SerendipityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		687DB7B91CAEA5D3002EDE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687DB79C1CAEA5D3002EDE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687DB7A31CAEA5D3002EDE89;
+			remoteInfo = Serendipity;
+		};
+		687DB7C41CAEA5D3002EDE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687DB79C1CAEA5D3002EDE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687DB7A31CAEA5D3002EDE89;
+			remoteInfo = Serendipity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		687DB7A41CAEA5D3002EDE89 /* Serendipity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serendipity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687DB7A71CAEA5D3002EDE89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		687DB7A91CAEA5D3002EDE89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		687DB7AC1CAEA5D3002EDE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		687DB7AE1CAEA5D3002EDE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687DB7B11CAEA5D3002EDE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		687DB7B31CAEA5D3002EDE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687DB7B81CAEA5D3002EDE89 /* SerendipityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerendipityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687DB7BC1CAEA5D3002EDE89 /* SerendipityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerendipityTests.swift; sourceTree = "<group>"; };
+		687DB7BE1CAEA5D3002EDE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687DB7C31CAEA5D3002EDE89 /* SerendipityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerendipityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687DB7C71CAEA5D3002EDE89 /* SerendipityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerendipityUITests.swift; sourceTree = "<group>"; };
+		687DB7C91CAEA5D3002EDE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687DB7A11CAEA5D3002EDE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687DB7B51CAEA5D3002EDE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687DB7C01CAEA5D3002EDE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687DB79B1CAEA5D3002EDE89 = {
+			isa = PBXGroup;
+			children = (
+				687DB7A61CAEA5D3002EDE89 /* Serendipity */,
+				687DB7BB1CAEA5D3002EDE89 /* SerendipityTests */,
+				687DB7C61CAEA5D3002EDE89 /* SerendipityUITests */,
+				687DB7A51CAEA5D3002EDE89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		687DB7A51CAEA5D3002EDE89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687DB7A41CAEA5D3002EDE89 /* Serendipity.app */,
+				687DB7B81CAEA5D3002EDE89 /* SerendipityTests.xctest */,
+				687DB7C31CAEA5D3002EDE89 /* SerendipityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687DB7A61CAEA5D3002EDE89 /* Serendipity */ = {
+			isa = PBXGroup;
+			children = (
+				687DB7A71CAEA5D3002EDE89 /* AppDelegate.swift */,
+				687DB7A91CAEA5D3002EDE89 /* ViewController.swift */,
+				687DB7AB1CAEA5D3002EDE89 /* Main.storyboard */,
+				687DB7AE1CAEA5D3002EDE89 /* Assets.xcassets */,
+				687DB7B01CAEA5D3002EDE89 /* LaunchScreen.storyboard */,
+				687DB7B31CAEA5D3002EDE89 /* Info.plist */,
+			);
+			path = Serendipity;
+			sourceTree = "<group>";
+		};
+		687DB7BB1CAEA5D3002EDE89 /* SerendipityTests */ = {
+			isa = PBXGroup;
+			children = (
+				687DB7BC1CAEA5D3002EDE89 /* SerendipityTests.swift */,
+				687DB7BE1CAEA5D3002EDE89 /* Info.plist */,
+			);
+			path = SerendipityTests;
+			sourceTree = "<group>";
+		};
+		687DB7C61CAEA5D3002EDE89 /* SerendipityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				687DB7C71CAEA5D3002EDE89 /* SerendipityUITests.swift */,
+				687DB7C91CAEA5D3002EDE89 /* Info.plist */,
+			);
+			path = SerendipityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687DB7A31CAEA5D3002EDE89 /* Serendipity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687DB7CC1CAEA5D3002EDE89 /* Build configuration list for PBXNativeTarget "Serendipity" */;
+			buildPhases = (
+				687DB7A01CAEA5D3002EDE89 /* Sources */,
+				687DB7A11CAEA5D3002EDE89 /* Frameworks */,
+				687DB7A21CAEA5D3002EDE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Serendipity;
+			productName = Serendipity;
+			productReference = 687DB7A41CAEA5D3002EDE89 /* Serendipity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687DB7B71CAEA5D3002EDE89 /* SerendipityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687DB7CF1CAEA5D3002EDE89 /* Build configuration list for PBXNativeTarget "SerendipityTests" */;
+			buildPhases = (
+				687DB7B41CAEA5D3002EDE89 /* Sources */,
+				687DB7B51CAEA5D3002EDE89 /* Frameworks */,
+				687DB7B61CAEA5D3002EDE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687DB7BA1CAEA5D3002EDE89 /* PBXTargetDependency */,
+			);
+			name = SerendipityTests;
+			productName = SerendipityTests;
+			productReference = 687DB7B81CAEA5D3002EDE89 /* SerendipityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		687DB7C21CAEA5D3002EDE89 /* SerendipityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687DB7D21CAEA5D3002EDE89 /* Build configuration list for PBXNativeTarget "SerendipityUITests" */;
+			buildPhases = (
+				687DB7BF1CAEA5D3002EDE89 /* Sources */,
+				687DB7C01CAEA5D3002EDE89 /* Frameworks */,
+				687DB7C11CAEA5D3002EDE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687DB7C51CAEA5D3002EDE89 /* PBXTargetDependency */,
+			);
+			name = SerendipityUITests;
+			productName = SerendipityUITests;
+			productReference = 687DB7C31CAEA5D3002EDE89 /* SerendipityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687DB79C1CAEA5D3002EDE89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cocoplanners;
+				TargetAttributes = {
+					687DB7A31CAEA5D3002EDE89 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					687DB7B71CAEA5D3002EDE89 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 687DB7A31CAEA5D3002EDE89;
+					};
+					687DB7C21CAEA5D3002EDE89 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 687DB7A31CAEA5D3002EDE89;
+					};
+				};
+			};
+			buildConfigurationList = 687DB79F1CAEA5D3002EDE89 /* Build configuration list for PBXProject "Serendipity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 687DB79B1CAEA5D3002EDE89;
+			productRefGroup = 687DB7A51CAEA5D3002EDE89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687DB7A31CAEA5D3002EDE89 /* Serendipity */,
+				687DB7B71CAEA5D3002EDE89 /* SerendipityTests */,
+				687DB7C21CAEA5D3002EDE89 /* SerendipityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687DB7A21CAEA5D3002EDE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687DB7B21CAEA5D3002EDE89 /* LaunchScreen.storyboard in Resources */,
+				687DB7AF1CAEA5D3002EDE89 /* Assets.xcassets in Resources */,
+				687DB7AD1CAEA5D3002EDE89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687DB7B61CAEA5D3002EDE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687DB7C11CAEA5D3002EDE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687DB7A01CAEA5D3002EDE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687DB7AA1CAEA5D3002EDE89 /* ViewController.swift in Sources */,
+				687DB7A81CAEA5D3002EDE89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687DB7B41CAEA5D3002EDE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687DB7BD1CAEA5D3002EDE89 /* SerendipityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687DB7BF1CAEA5D3002EDE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687DB7C81CAEA5D3002EDE89 /* SerendipityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687DB7BA1CAEA5D3002EDE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687DB7A31CAEA5D3002EDE89 /* Serendipity */;
+			targetProxy = 687DB7B91CAEA5D3002EDE89 /* PBXContainerItemProxy */;
+		};
+		687DB7C51CAEA5D3002EDE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687DB7A31CAEA5D3002EDE89 /* Serendipity */;
+			targetProxy = 687DB7C41CAEA5D3002EDE89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		687DB7AB1CAEA5D3002EDE89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687DB7AC1CAEA5D3002EDE89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		687DB7B01CAEA5D3002EDE89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687DB7B11CAEA5D3002EDE89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687DB7CA1CAEA5D3002EDE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		687DB7CB1CAEA5D3002EDE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687DB7CD1CAEA5D3002EDE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Serendipity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoplanners.Serendipity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		687DB7CE1CAEA5D3002EDE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Serendipity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoplanners.Serendipity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		687DB7D01CAEA5D3002EDE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SerendipityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoplanners.SerendipityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serendipity.app/Serendipity";
+			};
+			name = Debug;
+		};
+		687DB7D11CAEA5D3002EDE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SerendipityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoplanners.SerendipityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serendipity.app/Serendipity";
+			};
+			name = Release;
+		};
+		687DB7D31CAEA5D3002EDE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SerendipityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoplanners.SerendipityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Serendipity;
+			};
+			name = Debug;
+		};
+		687DB7D41CAEA5D3002EDE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SerendipityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoplanners.SerendipityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Serendipity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687DB79F1CAEA5D3002EDE89 /* Build configuration list for PBXProject "Serendipity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687DB7CA1CAEA5D3002EDE89 /* Debug */,
+				687DB7CB1CAEA5D3002EDE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687DB7CC1CAEA5D3002EDE89 /* Build configuration list for PBXNativeTarget "Serendipity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687DB7CD1CAEA5D3002EDE89 /* Debug */,
+				687DB7CE1CAEA5D3002EDE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		687DB7CF1CAEA5D3002EDE89 /* Build configuration list for PBXNativeTarget "SerendipityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687DB7D01CAEA5D3002EDE89 /* Debug */,
+				687DB7D11CAEA5D3002EDE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		687DB7D21CAEA5D3002EDE89 /* Build configuration list for PBXNativeTarget "SerendipityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687DB7D31CAEA5D3002EDE89 /* Debug */,
+				687DB7D41CAEA5D3002EDE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 687DB79C1CAEA5D3002EDE89 /* Project object */;
+}
