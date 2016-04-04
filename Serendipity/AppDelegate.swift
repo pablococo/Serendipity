@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         NSThread.sleepForTimeInterval(1.0);
         //start
         //pink
+        //star
         return true
     }
 
