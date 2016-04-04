@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         NSThread.sleepForTimeInterval(1.0);
         //start
+        //pink
         return true
     }
 
