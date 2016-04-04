@@ -10,10 +10,14 @@
 		687DB7A81CAEA5D3002EDE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7A71CAEA5D3002EDE89 /* AppDelegate.swift */; };
 		687DB7AA1CAEA5D3002EDE89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7A91CAEA5D3002EDE89 /* ViewController.swift */; };
 		687DB7AD1CAEA5D3002EDE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687DB7AB1CAEA5D3002EDE89 /* Main.storyboard */; };
-		687DB7AF1CAEA5D3002EDE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687DB7AE1CAEA5D3002EDE89 /* Assets.xcassets */; };
 		687DB7B21CAEA5D3002EDE89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687DB7B01CAEA5D3002EDE89 /* LaunchScreen.storyboard */; };
 		687DB7BD1CAEA5D3002EDE89 /* SerendipityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7BC1CAEA5D3002EDE89 /* SerendipityTests.swift */; };
 		687DB7C81CAEA5D3002EDE89 /* SerendipityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7C71CAEA5D3002EDE89 /* SerendipityUITests.swift */; };
+		687DB7D61CAEA8D4002EDE89 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7D51CAEA8D4002EDE89 /* ListViewController.swift */; };
+		687DB7D81CAEADEB002EDE89 /* PostVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7D71CAEADEB002EDE89 /* PostVO.swift */; };
+		687DB7DA1CAEBB4F002EDE89 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7D91CAEBB4F002EDE89 /* PostCell.swift */; };
+		687DB7DC1CAEBF52002EDE89 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DB7DB1CAEBF52002EDE89 /* DetailViewController.swift */; };
+		68F8F1821CB0E17700F3CD82 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F8F1811CB0E17700F3CD82 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		687DB7A71CAEA5D3002EDE89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		687DB7A91CAEA5D3002EDE89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		687DB7AC1CAEA5D3002EDE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		687DB7AE1CAEA5D3002EDE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		687DB7B11CAEA5D3002EDE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		687DB7B31CAEA5D3002EDE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		687DB7B81CAEA5D3002EDE89 /* SerendipityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerendipityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,11 @@
 		687DB7C31CAEA5D3002EDE89 /* SerendipityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerendipityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		687DB7C71CAEA5D3002EDE89 /* SerendipityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerendipityUITests.swift; sourceTree = "<group>"; };
 		687DB7C91CAEA5D3002EDE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687DB7D51CAEA8D4002EDE89 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		687DB7D71CAEADEB002EDE89 /* PostVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostVO.swift; sourceTree = "<group>"; };
+		687DB7D91CAEBB4F002EDE89 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		687DB7DB1CAEBF52002EDE89 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		68F8F1811CB0E17700F3CD82 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +107,12 @@
 			children = (
 				687DB7A71CAEA5D3002EDE89 /* AppDelegate.swift */,
 				687DB7A91CAEA5D3002EDE89 /* ViewController.swift */,
+				687DB7D71CAEADEB002EDE89 /* PostVO.swift */,
+				687DB7D91CAEBB4F002EDE89 /* PostCell.swift */,
+				687DB7D51CAEA8D4002EDE89 /* ListViewController.swift */,
+				687DB7DB1CAEBF52002EDE89 /* DetailViewController.swift */,
 				687DB7AB1CAEA5D3002EDE89 /* Main.storyboard */,
-				687DB7AE1CAEA5D3002EDE89 /* Assets.xcassets */,
+				68F8F1811CB0E17700F3CD82 /* Media.xcassets */,
 				687DB7B01CAEA5D3002EDE89 /* LaunchScreen.storyboard */,
 				687DB7B31CAEA5D3002EDE89 /* Info.plist */,
 			);
@@ -230,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				687DB7B21CAEA5D3002EDE89 /* LaunchScreen.storyboard in Resources */,
-				687DB7AF1CAEA5D3002EDE89 /* Assets.xcassets in Resources */,
+				68F8F1821CB0E17700F3CD82 /* Media.xcassets in Resources */,
 				687DB7AD1CAEA5D3002EDE89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +270,10 @@
 			files = (
 				687DB7AA1CAEA5D3002EDE89 /* ViewController.swift in Sources */,
 				687DB7A81CAEA5D3002EDE89 /* AppDelegate.swift in Sources */,
+				687DB7D81CAEADEB002EDE89 /* PostVO.swift in Sources */,
+				687DB7DC1CAEBF52002EDE89 /* DetailViewController.swift in Sources */,
+				687DB7D61CAEA8D4002EDE89 /* ListViewController.swift in Sources */,
+				687DB7DA1CAEBB4F002EDE89 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				687DB7CE1CAEA5D3002EDE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		687DB7CF1CAEA5D3002EDE89 /* Build configuration list for PBXNativeTarget "SerendipityTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				687DB7D11CAEA5D3002EDE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		687DB7D21CAEA5D3002EDE89 /* Build configuration list for PBXNativeTarget "SerendipityUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				687DB7D41CAEA5D3002EDE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

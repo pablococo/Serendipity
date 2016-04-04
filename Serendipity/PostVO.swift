@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class PostVO {
+    init(){
+        
+    }
+    
+    var thumbnail : String?
+    
+    var place : String?
+    
+    var detail : String?
+    
+}

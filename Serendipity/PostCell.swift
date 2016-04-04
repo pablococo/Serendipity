@@ -6,4 +6,9 @@
 //  Copyright © 2016년 cocoplanners. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class PostCell : UITableViewCell{
+    
+    @IBOutlet var thumbnail: UIImageView!
+}
